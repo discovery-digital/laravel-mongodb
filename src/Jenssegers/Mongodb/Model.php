@@ -10,8 +10,8 @@ use Jenssegers\Mongodb\Query\Builder as QueryBuilder;
 use Jenssegers\Mongodb\Relations\EmbedsMany;
 use Jenssegers\Mongodb\Relations\EmbedsOne;
 use Jenssegers\Mongodb\Relations\EmbedsOneOrMany;
-use MongoDate;
-use MongoId;
+use MongoDB\Date as MongoDate;
+use MongoDB\Id as MongoId;
 use ReflectionMethod;
 
 abstract class Model extends BaseModel {

@@ -3,7 +3,7 @@
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Pagination\LengthAwarePaginator;
 use Illuminate\Pagination\Paginator;
-use MongoId;
+use MongoDB\Id as MongoId;
 
 class EmbedsMany extends EmbedsOneOrMany {
 

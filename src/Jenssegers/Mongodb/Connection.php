@@ -1,6 +1,6 @@
 <?php namespace Jenssegers\Mongodb;
 
-use MongoClient;
+use MongoDB\Client as MongoClient;
 
 class Connection extends \Illuminate\Database\Connection {
 

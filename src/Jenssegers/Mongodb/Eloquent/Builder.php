@@ -2,7 +2,7 @@
 
 use Illuminate\Database\Eloquent\Builder as EloquentBuilder;
 use Illuminate\Database\Eloquent\Relations\Relation;
-use MongoCursor;
+use MongoDB\Cursor as MongoCursor;
 
 class Builder extends EloquentBuilder {
 

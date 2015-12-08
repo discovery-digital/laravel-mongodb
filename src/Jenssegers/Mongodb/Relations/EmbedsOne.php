@@ -1,7 +1,7 @@
 <?php namespace Jenssegers\Mongodb\Relations;
 
 use Illuminate\Database\Eloquent\Model;
-use MongoId;
+use MongoDB\Id as MongoId;
 
 class EmbedsOne extends EmbedsOneOrMany {
 

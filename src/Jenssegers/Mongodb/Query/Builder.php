@@ -7,9 +7,9 @@ use Illuminate\Database\Query\Expression;
 use Illuminate\Support\Arr;
 use Illuminate\Support\Collection;
 use Jenssegers\Mongodb\Connection;
-use MongoDate;
-use MongoId;
-use MongoRegex;
+use MongoDB\Date as MongoDate;
+use MongoDB\Id as MongoId;
+use MongoDB\Regex as MongoRegex;
 
 class Builder extends BaseBuilder {
 

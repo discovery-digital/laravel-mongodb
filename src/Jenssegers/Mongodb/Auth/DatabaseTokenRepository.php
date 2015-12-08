@@ -1,7 +1,7 @@
 <?php namespace Jenssegers\Mongodb\Auth;
 
 use DateTime;
-use MongoDate;
+use MongoDB\Date as MongoDate;
 
 class DatabaseTokenRepository extends \Illuminate\Auth\Passwords\DatabaseTokenRepository {
 

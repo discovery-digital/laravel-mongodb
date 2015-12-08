@@ -1,7 +1,7 @@
 <?php namespace Jenssegers\Mongodb;
 
 use Exception;
-use MongoCollection;
+use MongoDB\Collection as MongoCollection;
 
 class Collection {
 
